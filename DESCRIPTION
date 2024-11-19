@@ -1,0 +1,17 @@
+Package: fwdreg
+Title: Forward Selection for Regression Models
+Version: 0.1.0
+Authors@R: 
+    person("Yiqiao", "Zhu", , "sgyzhu@umich.edu", role = c("aut", "cre"))
+Description: Provide a forward selection algorithm for building linear regression models.
+    The process starts with a model containing only the intercept 
+    and adds the most statistically significant predictor at each step 
+    until no further improvement is seen in the AIC.
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
