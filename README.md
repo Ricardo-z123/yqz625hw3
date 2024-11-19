@@ -33,7 +33,7 @@ devtools::install_github("Ricardo-z123/yqz625hw3")
 library(fwdreg)
 data=mtcars
 model <- forward_select(mtcars, mpg)
-print(summary(result))
+print(summary(model))
 
 #> Call:
 #> lm(formula = current_formula, data = data)
