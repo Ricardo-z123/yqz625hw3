@@ -25,7 +25,7 @@ To ensure that the `fwdreg` package can be installed without any issues, follow 
 install.packages("devtools")
 
 # Install fwdreg from GitHub
-devtools::install_github("Ricardo-z123/fwdreg")
+devtools::install_github("Ricardo-z123/yqz625hw3")
 
 ## Usage
 
