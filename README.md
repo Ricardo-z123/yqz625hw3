@@ -26,6 +26,7 @@ install.packages("devtools")
 
 # Install fwdreg from GitHub
 devtools::install_github("Ricardo-z123/yqz625hw3")
+```
 
 ## Usage
 
